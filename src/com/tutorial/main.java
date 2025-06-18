@@ -13,18 +13,24 @@ class Mahasigma {
     // }
 
     //constructor dengan parameter
-    Mahasigma(String inputNama){
+    Mahasigma(String inputNama, String inputUmur, String inputNPM){
         nama = inputNama;
+        umur = inputUmur;
+        NPM = inputNPM;
+
+        System.out.println(nama);
+        System.out.println(umur);
+        System.out.println(NPM);
     }
 }
 
 public class Main {
     public static void main(String[] args) throws Exception {
         
-        // new Mahasigma(); 
+        // contoh dengan constructor
+        new Mahasigma("Fattan", "20", "10123692");
+
         // //membuat object
-        Mahasigma mahasigma = new Mahasigma("Fattan");
-        System.out.println(mahasigma.nama);
         // Mahasigma mahasigma2 = new Mahasigma();
 
         // //masukkan data
